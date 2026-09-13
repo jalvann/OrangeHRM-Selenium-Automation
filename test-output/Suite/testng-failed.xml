@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="OrangeHRM Full Regression(failed)">
+    <classes>
+      <class name="tests.VacancyTest">
+        <methods>
+          <include name="testSearchByStatus"/>
+          <include name="setupClass"/>
+          <include name="verifySpecialCharactersInVacancyName"/>
+          <include name="setUpVacancyPage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.VacancyTest -->
+      <class name="tests.ReportTest">
+        <methods>
+          <include name="verifyReportSearchAutocompletion"/>
+          <include name="setupMethod"/>
+          <include name="setupClass"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.ReportTest -->
+      <class name="tests.UserListTest">
+        <methods>
+          <include name="verifyDeleteUser"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.UserListTest -->
+      <class name="tests.DirectoryTest">
+        <methods>
+          <include name="testNoRecordsFoundForInvalidSearch"/>
+          <include name="setupClass"/>
+          <include name="testRecordCountMatchesCards"/>
+          <include name="setUpDirectoryPage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.DirectoryTest -->
+      <class name="tests.AssignLeaveTest">
+        <methods>
+          <include name="verifyLeaveBalanceResetAfterSubmission"/>
+          <include name="tearDown"/>
+          <include name="setupClass"/>
+          <include name="verifyLeaveSubmissionWhenBalanceInsufficient"/>
+          <include name="setUp"/>
+          <include name="setupMethod"/>
+        </methods>
+      </class> <!-- tests.AssignLeaveTest -->
+      <class name="tests.MaintenanceTest">
+        <methods>
+          <include name="testNavigateToAccessRecords"/>
+          <include name="setupClass"/>
+          <include name="testCancelPurgeAll"/>
+          <include name="testExecutePurgeAll"/>
+          <include name="testPurgeAllButtonStateWhenNoRecordsFound"/>
+          <include name="testPurgeAllButtonVisibilityAfterSearch"/>
+          <include name="tearDown"/>
+          <include name="testDownloadPersonalData"/>
+          <include name="setUp"/>
+          <include name="testSearchEmployeeForPersonalData"/>
+        </methods>
+      </class> <!-- tests.MaintenanceTest -->
+      <class name="tests.UserTest">
+        <methods>
+          <include name="setup"/>
+          <include name="setupMethod"/>
+          <include name="verifySpecialCharactersInUsername"/>
+          <include name="tearDown"/>
+          <include name="verifyUserSavedSuccessfully"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.UserTest -->
+      <class name="tests.EmployeeTest">
+        <methods>
+          <include name="setupClass"/>
+          <include name="setupMethod"/>
+          <include name="testUploadAttachment"/>
+          <include name="verifyDuplicateEmployeeName"/>
+          <include name="verifySpecialCharactersInEmployeeName"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.EmployeeTest -->
+      <class name="tests.RecruitmentCandidatesTest">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="setupClass"/>
+          <include name="verifyShortlistCandidate"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.RecruitmentCandidatesTest -->
+    </classes>
+  </test> <!-- OrangeHRM Full Regression(failed) -->
+</suite> <!-- Failed suite [Suite] -->

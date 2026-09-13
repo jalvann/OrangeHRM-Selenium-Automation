@@ -1,0 +1,135 @@
+<html>
+<head>
+<title>TestNG:  Vacancy Module Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Vacancy Module Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Sep 12 19:41:01 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>180 seconds (180415 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.VacancyTest.testRecordsFoundMatchesTableRows()'><b>testRecordsFoundMatchesTableRows</b><br>Test class: tests.VacancyTest<br>Test method: TC_VAC_129: Verify total record count matches table rows across pages</td>
+<td></td>
+<td>1</td>
+<td>tests.VacancyTest@c03cf28</td></tr>
+<tr>
+<td title='tests.VacancyTest.testAddNewVacancySuccessfully()'><b>testAddNewVacancySuccessfully</b><br>Test class: tests.VacancyTest<br>Test method: TC_VAC_142: Verify successful creation of new vacancy</td>
+<td></td>
+<td>28</td>
+<td>tests.VacancyTest@c03cf28</td></tr>
+<tr>
+<td title='tests.VacancyTest.testMandatoryFieldsValidationOnAddVacancy()'><b>testMandatoryFieldsValidationOnAddVacancy</b><br>Test class: tests.VacancyTest<br>Test method: TC_VAC_141: Verify mandatory field validation on Add Vacancy form</td>
+<td></td>
+<td>11</td>
+<td>tests.VacancyTest@c03cf28</td></tr>
+<tr>
+<td title='tests.VacancyTest.testEditVacancyNavigation()'><b>testEditVacancyNavigation</b><br>Test class: tests.VacancyTest<br>Test method: TC_VAC_136: Verify Edit Icon opens Edit Vacancy page</td>
+<td></td>
+<td>12</td>
+<td>tests.VacancyTest@c03cf28</td></tr>
+<tr>
+<td title='tests.VacancyTest.testSearchByStatus()'><b>testSearchByStatus</b><br>Test class: tests.VacancyTest<br>Test method: TC_VAC_132: Verify search filtering by Status</td>
+<td></td>
+<td>11</td>
+<td>tests.VacancyTest@c03cf28</td></tr>
+<tr>
+<td title='tests.VacancyTest.testCancelAddVacancy()'><b>testCancelAddVacancy</b><br>Test class: tests.VacancyTest<br>Test method: TC_VAC_143: Verify Cancel button discards data and returns to grid</td>
+<td></td>
+<td>2</td>
+<td>tests.VacancyTest@c03cf28</td></tr>
+<tr>
+<td title='tests.VacancyTest.testResetButtonClearsFilters()'><b>testResetButtonClearsFilters</b><br>Test class: tests.VacancyTest<br>Test method: TC_VAC_134: Verify Reset button clears search filters</td>
+<td></td>
+<td>11</td>
+<td>tests.VacancyTest@c03cf28</td></tr>
+<tr>
+<td title='tests.VacancyTest.testNavigateToAddVacancyPage()'><b>testNavigateToAddVacancyPage</b><br>Test class: tests.VacancyTest<br>Test method: TC_VAC_135: Verify navigation to Add Vacancy page</td>
+<td></td>
+<td>1</td>
+<td>tests.VacancyTest@c03cf28</td></tr>
+<tr>
+<td title='tests.VacancyTest.testSearchByJobTitle()'><b>testSearchByJobTitle</b><br>Test class: tests.VacancyTest<br>Test method: TC_VAC_130: Verify search filtering by Job Title</td>
+<td></td>
+<td>11</td>
+<td>tests.VacancyTest@c03cf28</td></tr>
+<tr>
+<td title='tests.VacancyTest.testBulkSelectAllCheckboxes()'><b>testBulkSelectAllCheckboxes</b><br>Test class: tests.VacancyTest<br>Test method: TC_VAC_139: Verify Bulk Select Checkbox highlights all rows</td>
+<td></td>
+<td>1</td>
+<td>tests.VacancyTest@c03cf28</td></tr>
+<tr>
+<td title='tests.VacancyTest.testNavigateToVacancies()'><b>testNavigateToVacancies</b><br>Test class: tests.VacancyTest<br>Test method: TC_VAC_128: Verify navigation to Vacancies page</td>
+<td></td>
+<td>0</td>
+<td>tests.VacancyTest@c03cf28</td></tr>
+</table><p>
+</body>
+</html>

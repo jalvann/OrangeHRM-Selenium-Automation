@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="14" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-13T18:46:48 IST" name="Default suite" finished-at="2026-09-13T18:52:22 IST" duration-ms="333497">
+    <groups>
+    </groups>
+    <test started-at="2026-09-13T18:46:48 IST" name="Default test" finished-at="2026-09-13T18:52:22 IST" duration-ms="333497">
+      <class name="tests.MaintenanceTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.MaintenanceTest@45c7e403]" started-at="2026-09-13T18:46:49 IST" name="setUp" finished-at="2026-09-13T18:46:55 IST" duration-ms="6547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:tests.MaintenanceTest@45c7e403]" started-at="2026-09-13T18:46:55 IST" name="setupClass" finished-at="2026-09-13T18:46:59 IST" duration-ms="3628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method signature="testAdminAccessPromptDisplayed()[pri:1, instance:tests.MaintenanceTest@45c7e403]" started-at="2026-09-13T18:46:59 IST" name="testAdminAccessPromptDisplayed" description="TC_MNT_001: Verify Administrator Access authentication prompt" finished-at="2026-09-13T18:46:59 IST" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminAccessPromptDisplayed -->
+        <test-method signature="testInvalidAdminPasswordAuthentication()[pri:2, instance:tests.MaintenanceTest@45c7e403]" started-at="2026-09-13T18:46:59 IST" name="testInvalidAdminPasswordAuthentication" description="TC_MNT_002: Verify authentication failure with invalid password" finished-at="2026-09-13T18:47:00 IST" duration-ms="1350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidAdminPasswordAuthentication -->
+        <test-method signature="testValidAdminPasswordAuthentication()[pri:3, instance:tests.MaintenanceTest@45c7e403]" started-at="2026-09-13T18:47:00 IST" name="testValidAdminPasswordAuthentication" description="TC_MNT_003: Verify authentication success with valid password" finished-at="2026-09-13T18:47:02 IST" duration-ms="1264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidAdminPasswordAuthentication -->
+        <test-method signature="testPurgeEmployeeMandatoryFieldValidation()[pri:4, instance:tests.MaintenanceTest@45c7e403]" started-at="2026-09-13T18:47:02 IST" name="testPurgeEmployeeMandatoryFieldValidation" description="TC_MNT_004: Verify mandatory field validation on Purge Employee Records" finished-at="2026-09-13T18:47:12 IST" duration-ms="10190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPurgeEmployeeMandatoryFieldValidation -->
+        <test-method signature="testSearchPastEmployeeForPurging()[pri:5, instance:tests.MaintenanceTest@45c7e403]" started-at="2026-09-13T18:47:12 IST" name="testSearchPastEmployeeForPurging" description="TC_MNT_005: Verify search past employee for purging" finished-at="2026-09-13T18:47:32 IST" duration-ms="20186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchPastEmployeeForPurging -->
+        <test-method signature="testNavigateToPurgeCandidateRecords()[pri:6, instance:tests.MaintenanceTest@45c7e403]" started-at="2026-09-13T18:47:32 IST" name="testNavigateToPurgeCandidateRecords" description="TC_MNT_006: Verify navigation to Purge Candidate Records page" finished-at="2026-09-13T18:47:43 IST" duration-ms="11360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToPurgeCandidateRecords -->
+        <test-method signature="testPurgeCandidateMandatoryFieldValidation()[pri:7, instance:tests.MaintenanceTest@45c7e403]" started-at="2026-09-13T18:47:43 IST" name="testPurgeCandidateMandatoryFieldValidation" description="TC_MNT_007: Verify mandatory field validation on Purge Candidate Records" finished-at="2026-09-13T18:48:05 IST" duration-ms="21362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPurgeCandidateMandatoryFieldValidation -->
+        <test-method signature="testPurgeAllButtonVisibilityAfterSearch()[pri:8, instance:tests.MaintenanceTest@45c7e403]" started-at="2026-09-13T18:48:05 IST" name="testPurgeAllButtonVisibilityAfterSearch" description="TC_MNT_PGA_001: Verify visibility of &#039;Purge All&#039; button after search" finished-at="2026-09-13T18:48:28 IST" duration-ms="23328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPurgeAllButtonVisibilityAfterSearch -->
+        <test-method signature="testPurgeAllConfirmationModal()[pri:9, instance:tests.MaintenanceTest@45c7e403]" started-at="2026-09-13T18:48:28 IST" name="testPurgeAllConfirmationModal" description="TC_MNT_PGA_002: Verify confirmation modal appears upon clicking &#039;Purge All&#039;" finished-at="2026-09-13T18:49:03 IST" duration-ms="34556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPurgeAllConfirmationModal -->
+        <test-method signature="testCancelPurgeAll()[pri:10, instance:tests.MaintenanceTest@45c7e403]" started-at="2026-09-13T18:49:03 IST" name="testCancelPurgeAll" description="TC_MNT_PGA_003: Verify cancellation of &#039;Purge All&#039; action" finished-at="2026-09-13T18:49:36 IST" duration-ms="33506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCancelPurgeAll -->
+        <test-method signature="testExecutePurgeAll()[pri:11, instance:tests.MaintenanceTest@45c7e403]" started-at="2026-09-13T18:49:36 IST" name="testExecutePurgeAll" description="TC_MNT_PGA_004: Verify successful execution of &#039;Purge All&#039; action" finished-at="2026-09-13T18:50:13 IST" duration-ms="36390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExecutePurgeAll -->
+        <test-method signature="testPurgeAllButtonStateWhenNoRecordsFound()[pri:12, instance:tests.MaintenanceTest@45c7e403]" started-at="2026-09-13T18:50:13 IST" name="testPurgeAllButtonStateWhenNoRecordsFound" description="TC_MNT_PGA_005: Verify &#039;Purge All&#039; button state when no records are found" finished-at="2026-09-13T18:50:49 IST" duration-ms="35910" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element found by By.xpath: //span[text()='No Records Found'] | //*[contains(text(),'No Records Found')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='No Records Found'] | //*[contains(text(),'No Records Found')]"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.82, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52280}, goog:processID: 12396, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52280/devtoo..., se:cdpVersion: 152.0.7977.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d768b0cd0bdc0def42926302c5faf669]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //span[text()='No Records Found'] | //*[contains(text(),'No Records Found')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='No Records Found'] | //*[contains(text(),'No Records Found')]"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.82, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52280}, goog:processID: 12396, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52280/devtoo..., se:cdpVersion: 152.0.7977.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d768b0cd0bdc0def42926302c5faf669
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+at pages.MaintenancePage.isNoRecordsFoundDisplayed(MaintenancePage.java:220)
+at tests.MaintenanceTest.testPurgeAllButtonStateWhenNoRecordsFound(MaintenanceTest.java:174)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPurgeAllButtonStateWhenNoRecordsFound -->
+        <test-method signature="testNavigateToAccessRecords()[pri:13, instance:tests.MaintenanceTest@45c7e403]" started-at="2026-09-13T18:50:49 IST" name="testNavigateToAccessRecords" description="TC_MNT_008: Verify navigation to Access Records page" finished-at="2026-09-13T18:50:59 IST" duration-ms="10808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToAccessRecords -->
+        <test-method signature="testSearchEmployeeForPersonalData()[pri:14, instance:tests.MaintenanceTest@45c7e403]" started-at="2026-09-13T18:50:59 IST" name="testSearchEmployeeForPersonalData" description="TC_MNT_009: Verify searching employee for personal data download" finished-at="2026-09-13T18:51:40 IST" duration-ms="41101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchEmployeeForPersonalData -->
+        <test-method signature="testDownloadPersonalData()[pri:15, instance:tests.MaintenanceTest@45c7e403]" started-at="2026-09-13T18:51:40 IST" name="testDownloadPersonalData" description="TC_MNT_010: Verify Download Personal Data functionality" finished-at="2026-09-13T18:52:22 IST" duration-ms="41080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownloadPersonalData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.MaintenanceTest@45c7e403]" started-at="2026-09-13T18:52:22 IST" name="tearDown" finished-at="2026-09-13T18:52:22 IST" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.MaintenanceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
